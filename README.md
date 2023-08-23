@@ -1,9 +1,9 @@
 
 # DataMason
 
-DataMason (currently in alpha testing) is a powerful Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
+DataMason _(currently in alpha testing)_ is a powerful Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
 
-###         >>> Note: _interface.py_ is currently _disabled_ in the pypi release, pending further development. <<<
+###         >>> NOTE: _interface.py_ is currently _disabled_ in the pypi release, pending further development. <<<
 
 ## Features
 
