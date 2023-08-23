@@ -1,7 +1,7 @@
 
 # DataMason
 
-DataMason is a powerful Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
+DataMason (currently in beta testing) is a powerful Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
 
 ## Features
 
