@@ -15,21 +15,21 @@ DataMason is a powerful Python package designed to make data analysis and manipu
 
 Install DataMason using pip:
 
-\`\`\`bash
+```bash
 pip install datamason
-\`\`\`
+```
 
 ## Usage
 
 ### Importing the Package
 
-\`\`\`python
+```python
 import datamason as dm
-\`\`\`
+```
 
 ### Data Cleaning
 
-\`\`\`python
+```python
 # Deduplicate rows
 cleaned_data = dm.prepare.deduplicate(data)
 
@@ -38,41 +38,41 @@ filled_data = dm.prepare.fill_gaps(cleaned_data)
 
 # Trim outliers
 final_data = dm.prepare.trim_outliers(filled_data)
-\`\`\`
+```
 
 ### Data Transformation
 
-\`\`\`python
+```python
 # Reshape data
 reshaped_data = dm.transform.reshape_data(final_data)
 
 # Encode categorical variables
 encoded_data = dm.transform.encode_cats(reshaped_data)
-\`\`\`
+```
 
 ### Data Analysis
 
-\`\`\`python
+```python
 # Summarize the data
 summary = dm.analyze.summarize(encoded_data)
 
 # Find correlations
 correlations = dm.analyze.find_correlations(encoded_data)
-\`\`\`
+```
 
 ### Data Visualization
 
-\`\`\`python
+```python
 # Plot a line chart
 dm.visualize.plot_line(encoded_data, 'time', 'value')
 
 # Plot a scatter chart
 dm.visualize.plot_scatter(encoded_data, 'feature1', 'feature2')
-\`\`\`
+```
 
 ### Data Validation
 
-\`\`\`python
+```python
 # Define validation rules
 rules = {
     'age': {'type': int, 'min_value': 0, 'max_value': 100},
@@ -81,7 +81,7 @@ rules = {
 
 # Validate the data
 is_valid, errors = dm.validate(encoded_data, rules)
-\`\`\`
+```
 
 ## Contributing
 
