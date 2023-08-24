@@ -1,3 +1,23 @@
+Metadata-Version: 2.1
+Name: DataMason
+Version: 0.4.0b1
+Summary: A powerful Python package for data analysis and manipulation.
+Home-page: https://github.com/thyripian/datamason
+Author: Kevan White (Thyripian)
+Author-email: thyripian@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 ## Release Status
 
 This package is currently in Beta release. While the main functionality is stable, some features are still being tested and refined. Feedback and contributions are welcome!
