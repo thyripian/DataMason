@@ -1,9 +1,17 @@
+_This is an alpha release and could be unstable. All feedback and suggestions are welcome._
+
+_**Current version:** 0.2.0a3_
 
 # DataMason
 
-DataMason _(currently in alpha testing)_ is a powerful Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
+DataMason is a comprehensive Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
 
-###         >>> NOTE: _interface.py_ is currently _disabled_ in the pypi release, pending further development. <<<
+## Features
+_This is an alpha release and could be unstable. All feedback and suggestions are welcome._
+
+# DataMason
+
+DataMason is a comprehensive Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
 
 ## Features
 
@@ -11,7 +19,7 @@ DataMason _(currently in alpha testing)_ is a powerful Python package designed t
 - **Data Transformation**: Reshape and transform datasets to fit your analysis needs.
 - **Data Analysis**: Perform insightful data analysis to uncover patterns and trends.
 - **Data Visualization**: Create meaningful visualizations that help communicate findings.
-- **Data Validation**: Validate data based on common rules and constraints.
+- **Machine Learning**: Utilize machine learning algorithms for predictive modeling.
 
 ## Installation
 
@@ -21,69 +29,36 @@ Install DataMason using pip:
 pip install datamason
 ```
 
-## Usage
+## Importing the Package and Subpackages
 
-### Importing the Package
+### Main Package
 
 ```python
 import datamason as dm
 ```
 
-### Data Cleaning
+### Subpackages
 
-```python
-# Deduplicate rows
-cleaned_data = dm.prepare.deduplicate(data)
+- **Analysis**: `import datamason.analysis as dm_analysis`
+- **Clustering**: `import datamason.clustering as dm_clustering`
+- **Data I/O**: `import datamason.data_io as dm_data_io`
+- **Image Processing**: `import datamason.image_processing as dm_image_processing`
+- **Integration**: `import datamason.integrate as dm_integrate`
+- **Interpolation**: `import datamason.interpolate as dm_interpolate`
+- **Linear Algebra**: `import datamason.linear_algebra as dm_linear_algebra`
+- **Metrics**: `import datamason.metrics as dm_metrics`
+- **Modeling**: `import datamason.modeling as dm_modeling`
+- **Numerics**: `import datamason.numerics as dm_numerics`
+- **Optimization**: `import datamason.optimize as dm_optimize`
+- **Preparation**: `import datamason.prepare as dm_prepare`
+- **Preprocessing**: `import datamason.preprocessing as dm_preprocessing`
+- **Statistics**: `import datamason.statistics as dm_statistics`
+- **Text Analysis**: `import datamason.text_analysis as dm_text_analysis`
+- **Transformation**: `import datamason.transform as dm_transform`
+- **Validation**: `import datamason.validation as dm_validation`
+- **Visualization**: `import datamason.visualization as dm_visualization`
 
-# Fill gaps (missing values)
-filled_data = dm.prepare.fill_gaps(cleaned_data)
-
-# Trim outliers
-final_data = dm.prepare.trim_outliers(filled_data)
-```
-
-### Data Transformation
-
-```python
-# Reshape data
-reshaped_data = dm.transform.reshape_data(final_data)
-
-# Encode categorical variables
-encoded_data = dm.transform.encode_cats(reshaped_data)
-```
-
-### Data Analysis
-
-```python
-# Summarize the data
-summary = dm.analyze.summarize(encoded_data)
-
-# Find correlations
-correlations = dm.analyze.find_correlations(encoded_data)
-```
-
-### Data Visualization
-
-```python
-# Plot a line chart
-dm.visualize.plot_line(encoded_data, 'time', 'value')
-
-# Plot a scatter chart
-dm.visualize.plot_scatter(encoded_data, 'feature1', 'feature2')
-```
-
-### Data Validation
-
-```python
-# Define validation rules
-rules = {
-    'age': {'type': int, 'min_value': 0, 'max_value': 100},
-    'name': {'type': str},
-}
-
-# Validate the data
-is_valid, errors = dm.validate(encoded_data, rules)
-```
+These are just examples, and not recommended best practices, for importing the subpackages.
 
 ## Contributing
 
@@ -111,3 +86,4 @@ MIT License
 ## Contact
 
 thyripian@gmail.com
+
