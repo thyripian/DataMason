@@ -1,3 +1,4 @@
+_This is an alpha release and could be unstable. All feedback and suggestions are welcome._
 
 # DataMason
 
@@ -49,18 +50,6 @@ import datamason as dm
 - **Visualization**: `import datamason.visualization as dm_visualization`
 
 These are just examples, and not recommended best practices, for importing the subpackages.
-
-
-## Testing
-
-DataMason includes a comprehensive testing submodule that allows users to validate the functionality of the package. You can run the entire test suite by executing:
-
-```python
-import datamason as dm
-dm.test()
-```
-
-This will provide a summary of the test results, including details of any failed tests.
 
 ## Usage
 
