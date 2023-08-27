@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='DataMason',
-    version='0.6.0b1', #beta release 
+    version='0.6.0b2', #beta release 
     author='Kevan White (Thyripian)',
     author_email='thyripian@gmail.com',
     license='MIT',
