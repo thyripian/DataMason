@@ -1,6 +1,6 @@
 ## Release Status
 
-**Current Release:** Beta (v0.7.0b)
+**Current Release:** Beta (v0.6.0b2)
 
 Welcome to DataMason! Our package is currently in the Beta release phase, showcasing a stable core functionality. While the primary features are rigorously tested and reliable, we are actively fine-tuning and evaluating additional features. Your insights and contributions are highly valued as we work towards a polished final release.
 
