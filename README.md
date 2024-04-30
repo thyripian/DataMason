@@ -1,12 +1,12 @@
 ## Release Status
 
-**Current Release:** Beta (v0.7.1b1)
+**Current Release:** Beta (v0.7.1b2)
 
 Welcome to DataMason! Our package is currently in the Beta release phase, showcasing a stable core functionality. While the primary features are rigorously tested and reliable, we are actively fine-tuning and evaluating additional features. Your insights and contributions are highly valued as we work towards a polished final release.
 
 ## Update Notes
 
-**Latest Update:** Polyglot installation module added! Call it using _dm.install_polyglot()_
+**Latest Update:** Rollback from a bad update to the _install_polyglot _ module.
 
 While the dependencies should be automatically installed when installing DataMason, if for some reason they are not found at import of the DataMason package, it will attempt to install them.
 
@@ -20,7 +20,7 @@ Thank you for being a part of the DataMason journey. Your engagement and support
 
 Stay tuned for further updates and feel free to contribute your expertise to our growing community!
 
-# DataMason (v. 0.7.1b1)
+# DataMason (v. 0.7.1b2)
 
 DataMason is a comprehensive Python package designed to make data analysis and manipulation easier for data professionals of all skill levels. It offers a collection of tools to clean, transform, analyze, and visualize datasets, allowing users to uncover insights and make informed decisions.
 
